@@ -1,0 +1,42 @@
+.section1 {
+  max-width: 1000px;
+  margin: 0 auto;
+  div {
+    display: block;
+    text-align: center;
+  }
+  label {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  input {
+    padding: 10px;
+    width: 70%;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  button {
+    margin-block: 10px;
+  }
+  table,
+  tr,
+  td {
+    border-collapse: collapse;
+    table {
+      padding: 10px;
+    }
+
+    td,
+    th {
+      height: 40px;
+      vertical-align: middle;
+      padding: 8px;
+      width: 10%;
+      border: 2px solid #ffffff;
+    }
+  }
+}
